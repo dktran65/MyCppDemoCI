@@ -7,13 +7,10 @@ void array_boundery_violation()
 {
 	int aBV[3] = {1,2,3};
 
-	aBV[4]= 5;
-	aBV[2] = 3 + aBV[1];
-	aBV[3] = 1 + aBV[2] - aBV[4];	// New CI Demo
-	aBV[3] = 1 + aBV[2] - aBV[5];	// New CI Demo
 	char str_array[10];
     char *p_str = str_array;
     char value;
+	
 
     sprintf(str_array,"Is this string fit in this array? \n");
 	printf("The str_array side is %d...", size(str_array));
