@@ -11,7 +11,7 @@ void array_boundery_violation()
     char *p_str = str_array;
     char value;
 	
-
+	aBV[3] = 5;
     sprintf(str_array,"Is this string fit in this array? \n");
 	printf("The str_array side is %d...", size(str_array));
     printf("The value of P is %s", *p_str);
